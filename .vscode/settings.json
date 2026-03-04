@@ -1,0 +1,85 @@
+{
+  "editor.fontFamily": "'Cascadia Code PL', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "cSpell.language": "en,es",
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeLens": true,
+  "editor.codeLensFontSize": 2,
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 12.5,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "window.restoreWindows": "none",
+  "files.autoSave": "onFocusChange",
+  "files.trimFinalNewlines": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Blue",
+  "workbench.sideBar.location": "left",
+  "terminal.integrated.tabs.location": "right",
+  "html.autoClosingTags": true,
+  "html.format.enable": true,
+  "html.autoCreateQuotes": true,
+  "html.format.preserveNewLines": false,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": [
+      "document"
+    ],
+    "editor.formatOnSave": false
+  },
+  "javascript.autoClosingTags": true,
+  "javascript.format.enable": true,
+  "javascript.suggest.completeJSDocs": true,
+  "javascript.suggest.enabled": true,
+  "terminal.integrated.fontSize": 16,
+  "[dart]": {
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.openDevTools": "flutter",
+  "application.shellEnvironmentResolutionTimeout": 15,
+  "files.associations": {
+    "*.html": "twig"
+  },
+  "emmet.includeLanguages": {
+      "twig": "html"
+  },
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "background.windowBackgrounds": [
+    "/Users/migueajm/Pictures/black.png",
+    "\\Users\\miguelangeljimenez\\Desktop\\black-goku.jpg"
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/.docx.json"
+      ],
+      "url": "https://raw.githubusercontent.com/Mehdi-Verfaillie/docx/main/src/config/.docx.schema.json"
+    }
+  ],
+  "workbench.editorAssociations": {
+    "*.docx": "default"
+  },
+  "git.ignoreMissingGitWarning": true,
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "open"
+}{
+}
