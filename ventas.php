@@ -1,4 +1,5 @@
 <?php
+ob_star();
 require_once 'config/database.php';
 require_once 'includes/header.php'; // Solo PHP + navbar del sitio (lo cubriremos con fixed)
 
