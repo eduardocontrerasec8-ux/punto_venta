@@ -1,9 +1,9 @@
 <?php
-$host = "localhost";
-$port = "5432";
-$dbname = "punto_de_venta";
-$user = "postgres";
-$password = "24agosto";
+$host = getenv("DB_HOST");
+$port = getenv("DB_PORT");
+$dbname = getenv("DB_NAME");
+$user = getenv("DB_USER");
+$password = getenv("DB_PASSWORD");
 
 try {
     $conn = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $password);
@@ -11,5 +11,5 @@ try {
 } catch(PDOException $e) {
     die("Error de conexión: " . $e->getMessage());
 }
+
 session_start();
-?>
