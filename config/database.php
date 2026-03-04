@@ -1,5 +1,5 @@
 <?php
-$host = "postgresql://adminpv:gCyxuddd846AjN7zzLfamq7WCpQK4611@dpg-d6jrprvafjfc73f2p1og-a.oregon-postgres.render.com/puntoventa_u3ov";
+$host = "dpg-d6jrpravjfc73f2p1og-a.oregon-postgres.render.com";
 $port = "5432";
 $dbname = "puntoventa_u3ov";
 $user = "adminpv";
